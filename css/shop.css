@@ -31,6 +31,12 @@ img {
   position: relative;
 }
 
+.thumb-li{
+  height: 130px;
+  width: 110px;
+  padding: 3px;
+}
+
 .details{
   flex:30%;
   height:640px;
@@ -38,6 +44,16 @@ img {
   margin-right: 20px;
 }
 
+.img1{
+  height: 25px;
+  width: 25px;
+  transform: rotate(90deg);
+  float: right;
+}
+.product{
+  font-family: berlingskeDemBold,serif;
+  font-size: x-large;
+}
 .wishlist{
   height:40px;
   align: right;
