@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop With Us</title>
+    <link rel="stylesheet" href="./css/shop.css">
+    <script src="./js/shop.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+<body>
+    
+<div class="row">
+    <div class="picContainer">
+        <img src="./images/1.jpg">
+        <img style="float:right" src="./images/2.jpg">
+        <div class="owl-carousel owl-theme">
+            <p>123</p>        
+                <div class="item"><img src="./images/2.jpg"></div>
+                <div class="item"><img src="./images/3.jpg"></div>
+                <div class="item"><img src="./images/4.jpg"></div>
+        </div>                
+    </div>  
+      
+    <div class="thumb">
+        <img src="./images/1.jpg" style="height: 130px;width: 110px;padding: 3px;">
+        <img src="./images/2.jpg" style="height: 130px;width: 110px;padding: 3px;">
+        <img src="./images/3.jpg" style="height: 130px;width: 110px;padding: 3px;">
+        <img src="./images/4.jpg" style="height: 130px;width: 110px;padding: 3px;">
+    </div> 
+
+    <div class="details">
+        <div class="wishlist">
+            <img style="height: 25px;width: 25px;transform: rotate(90deg);float: right; "src="./images/like.jpg">
+        </div>
+        <a style="font-family: berlingskeDemiBold,serif;font-size: x-large;"> Cinq a Sept</a>
+        
+        <span class="price">$235</span>
+        <p class="subCat">Giles Pants </p>
+        <span class="para">As low as $24/mo or 0% APR with Affirm.<u><b style="color: black;">Learn more</b> </u></span>
+        <br>
+        <span class="para">Doing good doesn't cost you more.<u><b style="color: black;">We price match</b></u> </span>
+        <div class="span"></div>
+        <p class="color"><b>COLOR</b> :  Olive </p>
+        <a class="color-icon">&#9673;</a>
+
+        <p class="color"><u>Size Guide</u></p>
+        <select class="dropdown"  onchange="activateCart(event)"> 
+            <option>Select a Size</option>
+            <option>M</option>
+            <option >XL</option>
+            <option >L</option>
+        </select>
+
+       
+        <input class="quantity" type="text" placeholder="QTY : 1" />
+        <div style="height: 10px;"></div>
+        <button class="cart" id="cart" > Add to cart</button>
+        <div style="height: 20px;"></div>
+
+        <div class="note">
+            <div style="height: 7px;"></div>
+            <h3 >THE OLIVELA EFFECT</h3>
+            <p>This item provides 6 chemotherapy care supplies for childern, through St. Jude Childern's Research Hospital</p>
+        </div>
+  
+        <p class="discount">Get 20% off your first purchase with code OLIVELA20</p>
+    </div>
+</div>
+</body>
+</html>

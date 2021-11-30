@@ -1,0 +1,112 @@
+body{
+  font-family: Arial;
+  margin: 10px;
+}
+
+img {
+  width: 350px;
+  height: 550px;
+  padding: 5px; 
+}   
+
+.row {  
+  display: flex;
+}
+
+.picContainer{
+  position: relative;
+  height:550px;
+  flex:70%;
+  margin-left:20px;
+}
+
+ .mySlide{
+  display: none;
+ }
+
+.thumb{
+  height:550px;
+  width: 150px;
+  float:right;
+  position: relative;
+}
+
+.details{
+  flex:30%;
+  height:640px;
+  padding-left:50px;
+  margin-right: 20px;
+}
+
+.wishlist{
+  height:40px;
+  align: right;
+  margin-right: 30px;
+}
+.price{
+  font-size: small;
+  float:right;
+  padding-right: 30px;
+}
+.subCat{
+  font-family: serif;
+  font-size: larger;
+}
+.para{
+  font-family: serif;
+  font-size: smaller;
+  color: #808089 ;
+}
+
+.span{
+  height: 25px;
+}
+
+.color{
+  font-family:  sans-serif;
+  font-size:small;
+}
+
+.color-icon{
+  font-size:20px;
+  color:olivedrab;
+  border-radius:50%;
+}
+.dropdown{
+  width:200px;
+  height:40px;
+  position: relative;
+  color: #808089;
+}
+
+.quantity{
+  width:85px;
+  height: 35px;
+}
+
+.cart{
+  width: 300px;
+  height: 35px;
+  color:white;
+  background-color: rgb(95, 93, 93);
+}
+
+.note{
+  width: 280px;
+  height:130px ;
+  background-color: rgb(230, 230, 230);
+  color: rgba(107, 104, 104, 0.767);
+  padding: 10px;
+  font-family:serif ;
+  font-size: small;
+  letter-spacing: 1px;
+  line-height-step: 1px;
+}
+
+.discount{
+  letter-spacing: 0.7px;
+  color: darkslateblue;
+  font-size:small ;
+  margin-right: 20px;
+  font-family:serif;
+}
