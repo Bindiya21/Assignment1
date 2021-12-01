@@ -28,18 +28,21 @@ function showSlides(n) {
   //slides[slideIndex].style.display = "block";  
   
   dots[slideIndex-1].className += " active";
-}*/
+}
+*/
+
+$(document).ready(function(){
 
 $('.owl-carousel').owlCarousel({
   loop:true,
-  margin:10,
+  margin:0,
   nav:true,
-  responsive:{
-  items:2
-  }
+ items:2
 })
-
+});
 function activateCart(event){
   document.getElementById("cart").style.backgroundColor="green";
   document.getElementsById("cart").style.color="white";
 }
+
+

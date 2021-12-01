@@ -4,11 +4,14 @@ body{
 }
 
 img {
-  width: 350px;
+  width: 330px;
   height: 550px;
-  padding: 5px; 
 }   
 
+.image{
+  width: 300px;
+  height: 550px;
+}
 .img1{
   float:right;
 }
@@ -20,8 +23,9 @@ img {
 .picContainer{
   position: relative;
   height:550px;
-  flex:70%;
+  width:700px;
   margin-left:20px;
+  border: 1px solid black;
 }
 
  .mySlide{
@@ -132,3 +136,9 @@ img {
   margin-right: 20px;
   font-family:serif;
 }
+
+
+
+
+
+
