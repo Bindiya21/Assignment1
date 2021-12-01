@@ -9,7 +9,7 @@ img {
 }   
 
 .image{
-  width: 300px;
+  width: 400px;
   height: 550px;
 }
 .img1{
@@ -25,7 +25,6 @@ img {
   height:550px;
   width:700px;
   margin-left:20px;
-  border: 1px solid black;
 }
 
  .mySlide{
@@ -61,7 +60,7 @@ img {
 
 
 .product{
-  font-family: berlingskeDemBold,serif;
+  font-family: serif;
   font-size: x-large;
 }
 .wishlist{
@@ -137,8 +136,63 @@ img {
   font-family:serif;
 }
 
+.carousel-wrapper {
+  width: 1000px;
+  margin: auto;
+  position: relative;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.owl-carousel .owl-nav {
+  overflow: hidden;
+  height: 0px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: #5110e9;
+  border-color: black;
+}
 
 
+.owl-carousel .item {
+  text-align: center;
+}
 
+.owl-carousel .nav-button {
+  cursor: pointer;
+  position: absolute;
+  top: 230px ;
+  border-radius: 100px;
+}
 
+.owl-carousel .owl-prev.disabled,
+.owl-carousel .owl-next.disabled {
+  pointer-events: none;
+  opacity: 0.25;
+}
 
+.owl-carousel .owl-prev {
+  left: 1px;
+  border-radius: 10px;
+}
+
+.owl-carousel .owl-next {
+  right: 1px;
+}
+
+.owl-theme .owl-nav [class*=owl-] {
+  color: #ffffff;
+  font-size: 39px;
+  background: #000000;
+  border-radius: 3px;
+}
+
+.owl-carousel .prev-carousel:hover {
+  background-position: 0px -53px;
+}
+
+.owl-carousel .next-carousel:hover {
+  background-position: -24px -53px;
+}

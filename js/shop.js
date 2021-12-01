@@ -1,48 +1,16 @@
-/*var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-
-  slides[slideIndex-1].style.display = "block";  
-  //slides[slideIndex].style.display = "block";  
-  
-  dots[slideIndex-1].className += " active";
-}
-*/
 
 $(document).ready(function(){
 
 $('.owl-carousel').owlCarousel({
   loop:true,
-  margin:0,
   nav:true,
- items:2
+  margin:50,
+  items:2,
+  dotsEach:true,
+  navText: ["<div class='nav-button owl-prev'>‹</div>", "<div class='nav-button owl-next'>›</div>"],
 })
 });
-function activateCart(event){
-  document.getElementById("cart").style.backgroundColor="green";
-  document.getElementsById("cart").style.color="white";
-}
 
-
+$('#select_id').on('change',function(){
+  $('#cart').css({"background-color":"Green"});
+});
